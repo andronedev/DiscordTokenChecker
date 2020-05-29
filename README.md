@@ -8,7 +8,7 @@ Checker token discord
 
 Par AndroneDev
 
-#EN
+# EN
 
 1. Download the latest version here: https://github.com/andronedev/DiscordTokenChecker/releases
 2. Put your tokens to be tested in tokenstocheck.txt
