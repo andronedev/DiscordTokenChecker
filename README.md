@@ -4,7 +4,8 @@ Checker token discord
 # FR
 1. Telecharger la derniere version ici : https://github.com/andronedev/DiscordTokenChecker/releases
 2. Mettre vos tokens à tester dans tokenstocheck.txt
-3. Les bon tokens sont sauvegarder dans hits.txt
+3. lance le logiciel
+4. Les bon tokens sont sauvegarder dans hits.txt
 
 Par AndroneDev
 
@@ -12,7 +13,8 @@ Par AndroneDev
 
 1. Download the latest version here: https://github.com/andronedev/DiscordTokenChecker/releases
 2. Put your tokens to be tested in tokenstocheck.txt
-3. Good tokens are saved in hits.txt.
+3. launch the software
+4. Good tokens are saved in hits.txt.
 
 By AndroneDev
 
