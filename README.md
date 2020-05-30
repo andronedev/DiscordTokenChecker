@@ -1,4 +1,4 @@
-# DiscordTokenChecker 1.0.0
+# DiscordTokenChecker 1.0.1
 Checker token discord
 
 # FR
