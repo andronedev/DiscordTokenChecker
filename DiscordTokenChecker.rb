@@ -7,6 +7,7 @@ require 'Faraday'
 require 'json'
 require 'thread'
 require 'thwait'
+require 'net_http_ssl_fix'
 
 Gem.win_platform? ? (system "cls") : (system "clear")
 puts ''
@@ -25,6 +26,8 @@ puts '╚██████╗██║  ██║███████╗╚█
 puts ' ╚═════╝╚═╝  ╚═╝╚══════╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝                           '
 puts ''
 puts 'By Andronedev - t.me/andronedev | v1.0.0 - May 29, 2020'
+puts ''
+puts 'All hits are saved to hits.txt'
 puts ''
 puts 'Press Enter to start'
 
@@ -46,7 +49,6 @@ File.readlines(file).each do |tk|
   end
 
   captureJson = JSON.parse(capture.body)
-
   if captureJson["id"] != nil
     
           puts "#{tk} | Verified : #{captureJson['verified']} | #{captureJson["username"]}##{captureJson["discriminator"]} | #{captureJson["id"]} | #{captureJson["email"]} | two-factor authentication : #{captureJson['mfa_enabled']}"
@@ -55,7 +57,8 @@ File.readlines(file).each do |tk|
           f.puts("#{tk} | Verified : #{captureJson['verified']} | #{captureJson["username"]}##{captureJson["discriminator"]} | #{captureJson["id"]} | #{captureJson["email"]} | two-factor authentication : #{captureJson['mfa_enabled']}")
       f.close
     
-
+  else
+    puts "#{tk} - Invalide"
       
   end
 }
