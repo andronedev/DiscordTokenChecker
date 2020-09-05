@@ -9,27 +9,14 @@ Checker token discord
 
 Par AndroneDev
 
-# EN
-
-1. Download the latest version here: https://github.com/andronedev/DiscordTokenChecker/releases/latest
-2. Put your tokens to be tested in tokenstocheck.txt
-3. launch the software
-4. Good tokens are saved in hits.txt.
-
-By AndroneDev
-
-
-
-# [FR] Attention, 
-# je ne suis pas responsable de l'utilisation de ce logiciel, de plus celui-ci n'est pas officiel par discord
-
-# [EN] Attention, 
-# I'm not responsible for the use of this software, nor is it official by discord #
+## [FR] Attention, 
+## je ne suis pas responsable de l'utilisation de ce logiciel, de plus celui-ci n'est pas officiel par discord
 
 
 ## Licence : 
 
-```Attribution 4.0 International
+```markdown
+Attribution 4.0 International
 
 =======================================================================
 
