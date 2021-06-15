@@ -37,7 +37,7 @@ File.readlines(file).each do |tk|
   Thread.new { 
   tk = tk.sub(/\n+\Z/, '')
 
-  uri = URI.parse("https://discordapp.com/api/v8/users/@me")
+  uri = URI.parse("https://discordapp.com/api/users/@me")
   request = Net::HTTP::Get.new(uri)
   request["authorization"] = tk
   req_options = {
