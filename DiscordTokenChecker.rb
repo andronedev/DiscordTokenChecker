@@ -1,5 +1,3 @@
-#https://discordapp.com/api/v7/users/@me
-
 require 'net/http'
 require 'uri'
 require 'openssl'
